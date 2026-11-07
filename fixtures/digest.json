@@ -1,0 +1,41 @@
+{
+  "headline_summary": "Sample edition: every company and story below is invented, so you can review the design without spending anything on the API.",
+  "stories": [
+    {
+      "title": "Sample Robotics raises a $120M Series C to take warehouse automation to mid-size retailers",
+      "source": "Example News",
+      "url": "https://example.com/sample-robotics-series-c",
+      "published_date": "2026-11-05",
+      "summary": "The invented company says the round will fund a move from large fulfilment centres to smaller regional warehouses, with deployments priced per pick instead of as upfront hardware.",
+      "why_it_matters": "A usage-based pricing model could open robotics to customers that could never justify the capital cost.",
+      "category": "Funding"
+    },
+    {
+      "title": "Placeholder Health acquires a two-year-old clinical notes startup for an undisclosed sum",
+      "source": "Example Wire",
+      "url": "https://example.com/placeholder-health-acquisition",
+      "published_date": "2026-11-05",
+      "summary": "The deal folds a twelve-person team into the larger company's scheduling product, one of several small acquisitions in the category this quarter.",
+      "why_it_matters": "Incumbents are buying AI features rather than building them, which shortens the exit window for point solutions.",
+      "category": "M&A"
+    },
+    {
+      "title": "Demo Ledger opens its bookkeeping API to third-party developers",
+      "source": "Sample Tech Daily",
+      "url": "https://example.com/demo-ledger-api",
+      "published_date": "2026-11-04",
+      "summary": "Developers can now read and post transactions directly, and the company is sharing revenue with the first fifty partners who build on the API.",
+      "why_it_matters": "It's an early sign of fintech infrastructure moving from closed products to platforms.",
+      "category": "Product"
+    },
+    {
+      "title": "Seed valuations hold steady while time between rounds keeps growing, a fictional report finds",
+      "source": "Example Capital Review",
+      "url": "https://example.com/seed-market-report",
+      "published_date": "2026-11-04",
+      "summary": "The made-up survey shows median seed prices flat year over year, but the gap between seed and Series A has stretched by several months.",
+      "why_it_matters": "Founders may need to plan for more runway than the last cycle's playbook suggests.",
+      "category": "Market"
+    }
+  ]
+}

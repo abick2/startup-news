@@ -1,0 +1,20 @@
+[Unit]
+Description=Daily startup news digest
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=startupnews
+Group=startupnews
+WorkingDirectory=/opt/startup-news-sender
+EnvironmentFile=/opt/startup-news-sender/.env
+Environment=HOME=/var/lib/startupnews
+ExecStart=/usr/bin/node /opt/startup-news-sender/dist/index.js
+TimeoutStartSec=20min
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/startup-news-sender/state /opt/startup-news-sender/work /var/lib/startupnews
